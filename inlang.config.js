@@ -11,7 +11,7 @@ export async function defineConfig(env) {
 	)
 
 	return {
-		referenceLanguage: "en",
+		referenceLanguage: "en_US",
 		plugins: [
 			jsonPlugin({
 				pathPattern: "shared/i18n/locales/{language}/translation.json",
